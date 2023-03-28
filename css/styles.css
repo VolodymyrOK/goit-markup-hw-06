@@ -863,6 +863,7 @@ body {
 
 .modal-title {
     font-weight: 500;
+    margin-bottom: 16px;
     line-height: calc(24/16);
     letter-spacing: 0.02em;
     text-align: center;
@@ -870,13 +871,21 @@ body {
 }
 
 .modal-form-field {
-    margin-top: 16px;
     display: flex;
     flex-direction: column;
     position: relative;
 }
 
+.modal-form-field:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.modal-form-field:last-child {
+    margin-bottom: 16px;
+}
+
 .modal-form-field-label {
+    margin-bottom: 4px;
     font-size: 12px;
     line-height: calc(16/12);
     letter-spacing: 0.04em;
@@ -885,7 +894,6 @@ body {
 }
 
 .modal-form-field-input {
-    margin-top: 8px;
     padding-left: 38px;
     padding-right: 16px;
     width: 100%;
