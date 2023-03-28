@@ -22,7 +22,7 @@
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
     --header-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    --time-transition: 2550ms;
+    --time-transition: 250ms;
     --time-function: cubic-bezier(0.4, 0, 0.2, 1);
     --color-overlay: rgba(77, 90, 229, 0.9);
     --backdrop-bgcolor: rgba(46, 47, 66, 0.4);
