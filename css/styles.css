@@ -917,8 +917,8 @@ body {
 
 .modal-form-field-icon {
     position: absolute;
-    top: 34px;
-    left: 18px;
+    left: 16px;
+    bottom: 8px;
     fill: var(--hero-background);
 
     transition: fill var(--time-function) var(--time-transition);
@@ -927,12 +927,13 @@ body {
 .modal-form-field-input.textarea {
     width: 360px;
     height: 120px;
-    resize: none;
+    padding-left: 16px;
 
     font-size: 12px;
     line-height: calc(16/12);
     letter-spacing: 0.04em;
 
+    resize: none;
 }
 
 .modal-form-field-input.textarea::placeholder {
