@@ -958,8 +958,8 @@ body {
 }
 
 .modal-form-chekbox-input {
-    appearance: none;
-    position: absolute;
+    /* appearance: none; */
+    /* position: absolute; */
     width: 16px;
     height: 16px;
     left: 0;
