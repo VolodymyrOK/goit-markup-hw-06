@@ -993,8 +993,9 @@ body {
 }
 
 .modal-form-checkbox-label .checkbox-decor {
-    text-decoration-line: underline;
+    text-decoration: underline;
     color: var(--primary-brand);
+    cursor: pointer;
 }
 
 .form-button {
